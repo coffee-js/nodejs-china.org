@@ -1,0 +1,46 @@
+
+doctype 5
+html
+  head
+    title Nodejs China
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='css/style.css')
+    link(type="image/x-icon", rel="icon", href="img/favicon.ico")
+    link(type="image/x-icon", rel="shortcut icon", href="img/favicon.ico")
+  body
+    #app
+      #banner
+        img#logo(src='img/logo.png')
+      #description
+        .content
+          span.
+            Node.js 是一个基于 
+          a(href='http://code.google.com/p/v8/') Chrome JavaScript 运行时
+          span.
+            建立的一个平台,
+            用来方便地搭建快速的, 易于扩展的网络应用.
+            Node.js 借助事件驱动, 非阻塞 I/O 模型变得轻量和高效,
+            非常适合 run across distributed devices 的 data-intensive 的实时应用.
+      #navitation
+        .content
+          .link
+            i.icon-home
+            a(href='http://nodejs.org/') Node.js
+          .link
+            i.icon-chat-empty
+            a(href='http://cnodejs.org/') CNode：Node.js 专业中文社区
+          .link
+            i.icon-search
+            a(href='http://nodeapi.ucdok.com/#/api/') Node.js API 中文版
+          .link
+            i.icon-book
+            a(href='http://nodejs.cn/') Node.js 中文网
+          .link
+            i.icon-cloud
+            a(href='http://cnpmjs.org/') cnpmjs.org: Private npm registry and web for Enterprise
+          .link
+            i.icon-link
+            a(href='http://yuan.rednode.cn/') 红豆园
+      #comment
+
+    include ga.jade

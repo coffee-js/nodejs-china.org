@@ -1,0 +1,60 @@
+
+@import url('../fontello/css/animation.css');
+@import url('../fontello/css/fontello.css');
+
+body {
+    margin: 0px;
+    background-color: hsl(72, 7%, 26%);
+    font-family: Optima, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif, '冬青黑体', '文泉驿微米黑', '微软雅黑';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#banner {
+    padding: 70px 0px;
+}
+
+#logo {
+    margin: auto;
+    display: block;
+}
+
+#description {
+    color: hsl(72, 28%, 79%);
+    padding: 0px 0px 50px;
+}
+
+#description a {
+    color: hsl(89, 53%, 54%);
+    text-decoration: none;
+}
+
+.content {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+#navitation {
+    padding: 90px 0px;
+    background-color: hsl(69, 7%, 19%);
+}
+
+#navitation .link {
+    text-align: left;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#navitation .link i {
+    margin-right: 20px;
+    color: hsl(89, 53%, 54%);
+}
+
+#navitation .link a {
+    color: hsl(72, 28%, 79%);
+    text-decoration: none;
+}
